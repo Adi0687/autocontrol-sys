@@ -109,6 +109,8 @@ body.ts-theme-light .ts-shapes-canvas:after {
 
 body.ts-theme-light p {
     color: rgba(25, 25, 25, .6);
+    font-size:1.5rem;
+    text-align:center
 }
 
 body.ts-theme-light h2 {
@@ -161,7 +163,7 @@ html {
 h1 {
     text-align: center;
     font-weight: 400;
-    font-size: 6rem;
+    font-size: 3rem;
 }
 
 h2 {
@@ -188,6 +190,11 @@ h5 {
 h6 {
     font-size: .9375rem;
 }
+
+#main-cotent .ts-col-md-6{
+    font-size:100px
+}
+
 
 /* NEW */
 
@@ -237,9 +244,7 @@ B. Helpers
     }
 }
 
-.ts-fadeInDown {
-    animation-name: ts-fadeInDown;
-}
+
 
 /* Fade In Left */
 
@@ -1829,7 +1834,7 @@ D. Plugins Styles
 .ts-count-down {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1.25rem;
+    margin-bottom: 0px;
     font-size: 2.5rem;
     font-weight: 400;
     text-shadow: .375rem .3125rem 1.5625rem rgba(0, 0, 0, .5);
@@ -2298,7 +2303,7 @@ E. Template Specific Elements
     }
 
     h1 {
-        font-size: 1.875rem;
+        font-size: 3rem;
     }
 
     h2 {
@@ -2349,7 +2354,7 @@ E. Template Specific Elements
     }
 
     h1 {
-        font-size: 2.25rem;
+        font-size: 3rem;
     }
 
     h2 {
@@ -2400,7 +2405,7 @@ E. Template Specific Elements
     }
 
     h1 {
-        font-size: 2.375rem;
+        font-size: 3rem;
     }
 
     h2 {
@@ -2464,7 +2469,7 @@ E. Template Specific Elements
     }
 
     h1 {
-        font-size: 2.625rem;
+        font-size: 3rem;
     }
 
     h2 {
@@ -2537,6 +2542,12 @@ E. Template Specific Elements
 @media (max-width: 35.9375rem) {
     h1 {
         margin-bottom: 1.25rem;
+        font-size:3rem;
+        margin-left:6rem;
+    }
+
+    p {
+        margin-left:6rem;
     }
 
     [class*="ts-column-count-"] {
@@ -2559,6 +2570,12 @@ E. Template Specific Elements
 @media (min-width: 36rem) and (max-width: 61.9375rem) {
     h1 {
         margin-bottom: 1.25rem;
+        font-size:3rem;
+        margin-left:8rem;
+    }
+
+    p {
+        margin-left:8rem;
     }
 
     .ts-title {
@@ -2573,6 +2590,7 @@ E. Template Specific Elements
 @media (min-width: 62rem) {
     h1 {
         margin-bottom: 1.875rem;
+        font-size:3rem;
     }
 
     .ts-title {
